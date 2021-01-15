@@ -15,11 +15,11 @@ int main()
 	float j6 = 6.0834706 * pow(10, -9);
 	float j8 = -1.427 * pow(10, -11);
 	
-	float enlem0 = 38 + (45 / 60);
+	float enlem0 = 38 + (45/60);
 	float enlemr = enlem0 * (PI / 180);
-	float boylam0 = 32 + (30 / 60);
+	float boylam0 = 30 + (30/60);
 	float boylamr = boylam0 * (PI / 180);
-	float h = 1625;	
+	float h = 1325;	
 	
 	float c = pow(a, 2) / b;
 
