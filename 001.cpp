@@ -61,9 +61,9 @@ int main()
 	float L = (GM / r) * (1 - toplam) + (pow(w, 2) / 2) * pow(r, 2) * pow(sin(sone), 2);
 	
 	
-	std::cout << "L: " << L << std::endl;
+	//std::cout << "L: %d" << L << std::endl;
+	printf ("L: %.6f \n", L);
+	
 	return 0;
 }
-
-
 
