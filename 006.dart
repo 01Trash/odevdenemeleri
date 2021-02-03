@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Uygulama Çerçevesi',
+      title: 'App',
       home: AnaEkran(),
     );
   }
@@ -19,7 +19,9 @@ class AnaEkran extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('DART'),
+        title: Center(
+          child: Text('DART'),
+        ),
       ),
       body: Container(
         child: Center(
